@@ -24,14 +24,14 @@ class Guest:
        print(f"Average age of guests: {average_age}")
 
 
-all_guests=list()
-num_guests=int(input("Enter the number of guests: "))   
-for i in range(num_guests):
-    data=input("Enter the last name, first name, rank , age of the guest: ").split(",")
-    guest=Guest(data[0],data[1],data[2],data[3])
-    all_guests.append(guest)
+# all_guests=list()
+# num_guests=int(input("Enter the number of guests: "))   
+# for i in range(num_guests):
+#     data=input("Enter the last name, first name, rank , age of the guest: ").split(",")
+#     guest=Guest(data[0],data[1],data[2],data[3])
+#     all_guests.append(guest)
 
-guest=all_guests[0]
-guest.guest_info(all_guests)
-guest.loyalty_programme(all_guests)
-guest.guess_avg(all_guests)
+# guest=all_guests[0]
+# guest.guest_info(all_guests)
+# guest.loyalty_programme(all_guests)
+# guest.guess_avg(all_guests)
